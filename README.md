@@ -1,18 +1,74 @@
-# MERN Auth App — Demo
+🔐 MERN Auth App
 
-This repository contains a simple MERN authentication demo:
-- server/ — Express server with MongoDB + JWT register/login
-- client/ — React UI (polished) demonstrating login/register flows
+A complete Authentication System built with the MERN Stack.
+Includes sign up, login, protected routes, hashed passwords, and JWT authentication.
 
-Server:
-1. cd server
-2. npm install
-3. set MONGO_URI and JWT_SECRET in .env (optional)
-4. npm start
+🚀 Features
 
-Client:
-1. cd client
-2. npm install
-3. npm start
+1.User signup
 
-Note: If you cannot run locally (npm blocked), this repo still demonstrates structure and code for recruiters.
+2.User login
+
+3.Password hashing
+
+4.JSON Web Tokens (JWT)
+
+5.Protected routes
+
+6.Full MERN architecture
+
+🛠 Tech Stack
+Frontend
+
+1.React
+
+2.Context API
+
+3.Fetch API
+
+Backend
+
+1.Node.js
+
+2.Express
+
+3.MongoDB
+
+4.JWT
+
+5.Bcrypt
+
+📁 Folder Structure
+backend/
+ ├── server.js
+ ├── models/
+ ├── routes/
+frontend/
+ ├── src/
+ │    ├── pages/
+ │    ├── components/
+ │    └── App.js
+
+▶️ How to Run
+Backend
+cd backend
+npm install
+npm start
+
+Frontend
+cd frontend
+npm install
+npm start
+
+🎯 What I Learned
+
+1.MERN folder structure
+
+2.Authentication flow
+
+3.Token-based login
+
+4.Protected pages
+
+5.Connecting React + Node
+
